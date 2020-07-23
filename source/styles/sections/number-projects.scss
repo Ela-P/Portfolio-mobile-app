@@ -1,0 +1,44 @@
+@import './shared/index.scss';
+
+.development__row {
+    display: flex;
+    flex-grow: 1;
+    justify-content: space-between;
+  
+  }
+  
+  div {
+  display: block;
+  }
+
+  .item-development {
+    
+    margin: 0 10px;
+  }
+  
+  .item-development__icon {
+    padding-bottom: 20px;
+    display: flex;
+    padding-top: 10px;
+  }
+  
+  .item-development__title {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: $title-fontsize;
+    line-height: 53px;
+    color: hsl(0, 0%, 0%);
+
+  
+  }
+  
+  .item-development__text {
+    font-style: normal;
+    font-weight: normal;
+    font-size: $paragraph-fontsize;
+    line-height: 25px;
+    color: hsl(0, 0%, 60%);
+  }
+  
+  

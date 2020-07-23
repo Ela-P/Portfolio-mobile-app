@@ -1,0 +1,38 @@
+@import './shared/index.scss';
+
+.our-project {
+  
+    background:hsl(240, 6%, 91%);;
+  }
+  
+  
+  .our-project__title {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: $title-fontsize;
+    line-height: 53px;
+    text-align: center;
+    color: hsl(0, 0%, 0%); 
+  }
+  
+  .our-project__text {
+    margin: 50px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: $paragraph-fontsize;
+    line-height: 25px;
+    text-align: center;
+    color: hsl(0, 0%, 60%);
+  }
+  
+  .our-project-img {
+    margin: 70px 30px;
+    display: flex;
+  }
+  
+  .our-project-img_picture {
+    padding-right: 25px;
+  }
+  

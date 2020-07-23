@@ -1,0 +1,74 @@
+@import '../shared/index.scss';
+
+.development {
+ 
+  background: $gray-background;
+}
+
+.development__body {
+  display: inline-flex;
+  justify-content: space-between;
+  align-items: center;
+ 
+}
+  
+.development__header {
+  margin: 0;
+  max-width: 489px;
+  height: 295px;
+}
+
+.development__title {
+  
+  padding-bottom: 40px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: $title-fontsize;
+  line-height: 53px;
+  color: hsl(0, 0%, 0%);
+
+}
+
+.development__text { 
+  margin-right: 50px;
+  padding-bottom: 30px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: $paragraph-fontsize;
+  line-height: 25px;
+  color: hsl(0, 0%, 60%);
+}
+
+
+.development__link a {
+  padding-bottom: 30px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 500;
+  font-size: $paragraph-fontsize;
+  line-height: 20px;
+  text-decoration-line: underline;
+  color: $primary-color;
+}
+
+
+.development-picture {
+  display: inline-flex;
+  width: 500px;
+  height: 400px;
+  padding-left: 90px;
+ 
+}
+
+.development-picture img {
+ height: 100%;
+ border-radius: 10%;
+}
+  
+.line {
+  width: 1110px;
+  box-align: center;
+  border: 1px solid hsl(0, 0%, 88%);
+}
