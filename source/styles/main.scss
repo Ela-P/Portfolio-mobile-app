@@ -16,6 +16,108 @@ html {
   padding: 100px 0;
 }
 
+header {
+  background-image: url(/source/img/1section.jpg) no-repeat center center fixed;
+  background-size: cover;
+}
+
+
+.itstudio-nav__menu {
+  line-height: 26px;
+  display: flex;
+  align-self: flex-start;
+  top: 40px;
+}
+
+.itstudio-nav__info {
+  float: left;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 500;
+  font-size: $default-rem;
+  line-height: 20px;
+  padding-left: 40px;
+}
+
+.itstudio-nav__info a{
+  color: hsl(0, 5%, 22%);
+    text-decoration: none;
+}
+
+.itstudio__p {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  text-align: center;
+  color: hsl(0, 20%, 89%);
+  padding-bottom: 50px;
+
+}
+
+.itstudio__h1 {
+  font-family: Montserrat;
+font-style: normal;
+font-weight: 800;
+font-size: 48px;
+line-height: 64px;
+text-align: center;
+padding-bottom: 50px;
+color: hsl(0, 20%, 89%);
+}
+
+.create-project-view {
+  background: hsl(0, 0%, 90%);
+  padding-top: 110px;
+}
+
+.create-project__h1 {
+font-family: Montserrat;
+font-style: normal;
+font-weight: bold;
+font-size: 36px;
+line-height: 53px;
+text-align: center;
+color: hsl(0, 0%, 3%);
+padding-bottom: 50px;
+}
+
+.create-project__p {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 25px;
+  text-align: center;
+  color: hsl(0, 0%, 60%);
+}
+
+.create-project_row {
+  display: flex;
+  align-content: space-between;
+}
+
+.item-create-project__h3 {
+  font-family: Montserrat;
+font-style: normal;
+font-weight: 600;
+font-size: 18px;
+line-height: 22px;
+
+color: #000000;
+
+}
+.item-create-project__p {
+  font-family: Montserrat;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 22px;
+
+color: #999999;
+}
+
 .click {
   width: 200px;
   height: 45px;
@@ -36,6 +138,8 @@ html {
   color: hsl(0, 0%, 100%);
   
 }
+
+
 
 
 
