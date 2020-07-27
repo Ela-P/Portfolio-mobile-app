@@ -4,6 +4,10 @@
 @import './shared/index.scss';
 @import 'reset.scss';
 @import './sections/index.scss';
+@import './sections/our-specialists.scss';
+@import './sections/our-work.scss';
+@import './sections/contact-info.scss';
+@import './sections/footer.scss';
 
 
 html {
@@ -16,35 +20,64 @@ html {
   padding: 100px 0;
 }
 
-header {
-  background-image: url(/source/img/1section.jpg) no-repeat center center fixed;
-  background-size: cover;
+.conainer--no-padding {
+  padding: 0;
 }
 
+main {
+  max-width: 830px;
+}
+
+.itstudio-nav {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  border-bottom: 1px solid hsl(0, 0%, 63%); ;
+}
 
 .itstudio-nav__menu {
   line-height: 26px;
   display: flex;
-  align-self: flex-start;
-  top: 40px;
+  justify-content: flex-end;
+  
 }
 
 .itstudio-nav__info {
-  float: left;
   font-family: Montserrat;
   font-style: normal;
   font-weight: 500;
   font-size: $default-rem;
   line-height: 20px;
-  padding-left: 40px;
+  margin-right: 40px;
 }
 
-.itstudio-nav__info a{
-  color: hsl(0, 5%, 22%);
-    text-decoration: none;
+.itstudio-nav__info--activ {
+  border-bottom: 2px solid hsl(0, 0%, 100%);
 }
 
-.itstudio__p {
+
+.itstudio-nav__info a {
+  display: block;
+  color: hsl(0, 0%, 100%);;
+  text-decoration: none;
+  padding: 40px 20px;
+}
+
+
+
+.itstudio__title {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 48px;
+  line-height: 64px;
+  text-align: center;
+  padding-bottom: 50px;
+  color: hsl(0, 20%, 89%);
+}
+
+.itstudio__name {
   font-family: Montserrat;
   font-style: normal;
   font-weight: 500;
@@ -56,23 +89,30 @@ header {
 
 }
 
-.itstudio__h1 {
+.itstudio__description {
   font-family: Montserrat;
-font-style: normal;
-font-weight: 800;
-font-size: 48px;
-line-height: 64px;
-text-align: center;
-padding-bottom: 50px;
-color: hsl(0, 20%, 89%);
+  font-style: normal;
+  font-weight: 800;
+  font-size: 48px;
+  line-height: 64px;
+  text-align: center;
+  padding-bottom: 50px;
+  color: hsl(0, 20%, 89%);
 }
+
+
 
 .create-project-view {
   background: hsl(0, 0%, 90%);
   padding-top: 110px;
 }
 
-.create-project__h1 {
+.test {
+  max-width: 800px;
+ 
+}
+
+.create-project__title {
 font-family: Montserrat;
 font-style: normal;
 font-weight: bold;
@@ -83,7 +123,7 @@ color: hsl(0, 0%, 3%);
 padding-bottom: 50px;
 }
 
-.create-project__p {
+.create-project__description {
   font-family: Montserrat;
   font-style: normal;
   font-weight: normal;
@@ -91,9 +131,10 @@ padding-bottom: 50px;
   line-height: 25px;
   text-align: center;
   color: hsl(0, 0%, 60%);
+  padding-bottom: 80px;
 }
 
-.create-project_row {
+.create-project__row {
   display: flex;
   align-content: space-between;
 }
@@ -114,8 +155,8 @@ font-style: normal;
 font-weight: normal;
 font-size: 14px;
 line-height: 22px;
-
 color: #999999;
+padding-bottom: 50px;
 }
 
 .click {
@@ -134,7 +175,7 @@ color: #999999;
   border: none;
   padding: 15px 30px;
   background: $primary-color;
-  border-radius: 30%; 
+  border-radius: 30px; 
   color: hsl(0, 0%, 100%);
   
 }

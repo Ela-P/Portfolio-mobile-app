@@ -1,0 +1,92 @@
+@import '../shared/index.scss';
+
+
+.our-work {
+    width: 100%;
+    height: 100%;
+    background: (url("../../img/png.png") 50%), hsl(240, 12%, 97%) 50%;
+}
+
+.our-work-title__title {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 53px;
+    text-align: center;
+    color: #FFFFFF;
+    padding-bottom: 30px;
+}
+
+.our-work__summary {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 25px;
+    text-align: center;
+    color: #FFFFFF;
+    padding-bottom: 70px;
+}
+
+.our-work-sign__title {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    color: #000000;
+    padding-top: 85px;
+    padding-bottom: 20px;
+}
+
+.our-work-sign__description {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 25px;
+    text-align: center;
+    color: #999999;
+    padding-bottom: 30px;
+
+}
+
+.our-work-video {
+  margin-left: 50px;
+  padding-bottom: 85px;
+}
+
+.our-work__line {
+    border: 1px solid #E0E0E0;
+  
+}
+
+.our-work__info {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 21px;
+    text-align: center; 
+    color: #999999;
+}
+
+.our-work__subs {
+    width: 489px;
+    height: 45px;
+    margin: 0 auto;
+    padding-bottom: 35px;
+}
+
+input {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 21px;
+
+
+color: #999999;
+}

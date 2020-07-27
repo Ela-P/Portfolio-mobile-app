@@ -1,7 +1,19 @@
 @import '../shared/index.scss';
 
+header {
+  max-width: 1920px;
+  background:  linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("../../img/Rectangle.png");
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-size: cover;
+  min-height: 100vh;
+  color: hsl(0, 0%, 100%);
+}
+
+
+
 .development {
- 
   background: $gray-background;
 }
 
