@@ -13,15 +13,24 @@
 }
 
 .contact-info-list__title {
-  
     font-weight: 600;
     font-size: 18px;
     line-height: 22px;
-
     color: #000000;
+    padding-bottom: 30px;
 
 }
 
+.contact-info__link {
+    font-size: 14px;
+    line-height: 22px;
+    color: #999999;
+    padding-bottom: 30px;
+}
+
+.fa-envelope-o {
+    padding: 10px;
+}
 
 .our-work__license {
 
