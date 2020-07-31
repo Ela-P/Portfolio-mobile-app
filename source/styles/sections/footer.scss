@@ -1,0 +1,41 @@
+@import '../shared/index.scss';
+
+.contact-info {
+    width: 100%;
+    background: #F6F6F8;
+}
+
+
+.contact-info-list__row {
+    display: flex;
+    flex-grow: 1;
+    justify-content: space-between;
+}
+
+.contact-info-list__title {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    color: #000000;
+    padding-bottom: 30px;
+
+}
+
+.contact-info__link {
+    font-size: 14px;
+    line-height: 22px;
+    color: #999999;
+    padding-bottom: 30px;
+}
+
+.fa-envelope-o {
+    padding: 10px;
+}
+
+.our-work__license {
+
+    font-size: 13px;
+    line-height: 21px;
+    text-align: center;
+    color: #999999;
+}

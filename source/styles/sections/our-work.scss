@@ -1,0 +1,149 @@
+@import '../shared/index.scss';
+
+
+.our-work {
+    max-width: 1920px;
+    max-height: 570px;
+    background: (url("../../img/1section.jpg")50%), hsl(240, 12%, 97%) 50%;
+    background-size: cover;
+}
+
+.our-work-title__title {
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 53px;
+    text-align: center;
+    color: #FFFFFF;
+    padding-top: 70px;
+    
+}
+
+.our-work__summary {
+    font-size: 16px;
+    line-height: 25px;
+    text-align: center;
+    color: #FFFFFF;
+    padding-top: 30px;
+}
+
+
+.our-work-video {
+    background: url("../../img/video.png");
+    max-width: 970px;
+    height: 430px;
+    margin: 70px auto -85px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.our-work__button {
+    width: 300px;
+    height: 100px;
+    border: 1px solid hsl(0, 0%, 100%);
+    border-radius: 200px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+   
+}
+
+.our-work__background{
+    width: 60px;
+    height: 60px;
+    background: #FFFFFF;
+    border-radius: 50%;
+    font-size: 2rem;
+    display: flex;
+    align-items: center;
+    margin-left: 40px;
+    margin-right: 20px;;
+   
+    
+}
+
+.fa-play {
+    color: #4985FF;
+    margin: 1.3rem;
+    }
+    
+
+.our-work__text {
+    display: flex;
+    width: 150px;
+    height: 19px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1rem;
+    line-height: 1.6rem;
+    color: #FFFFFF;
+}
+
+
+// секция под видео
+
+.our-work-sign__title {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    color: #000000;
+    padding-top: 85px;
+    padding-bottom: 30px;
+  
+}
+
+.our-work-sign__description {
+    font-size: 1rem;
+    line-height: 25px;
+    text-align: center;
+    color: #999999;
+    padding-bottom: 30px;
+
+}
+
+.our-work__line {
+    margin-top: 130px;
+    border: 1px solid #E0E0E0;
+}
+
+.our-work__subs {
+    width: 489px;
+    height: 45px;
+   display: flex;
+   margin: 0 auto;
+   padding-bottom: 35px;
+}
+   
+input {
+    width: 490px;
+    font-size: 13px;
+    line-height: 21px;
+    color: #999999;
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+    padding-left: 30px;
+}
+
+.our-work__click {
+    width: 190px;
+    height: 45px;
+    font-weight: 500;
+    font-size: $paragraph-fontsize;
+    line-height: 20px;
+    text-align: center;
+    border: none;
+    padding: 15px 30px;
+    background: $primary-color;
+    border-top-right-radius: 30px; 
+    border-bottom-right-radius: 30px;
+    color: hsl(0, 0%, 100%);    
+}
+
+.our-work__info {
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 21px;
+    text-align: center;
+    color: hsl(0, 0%, 60%);
+}

@@ -4,33 +4,39 @@
     display: flex;
     flex-grow: 1;
     justify-content: space-between;
-  
   }
   
   div {
   display: block;
   }
 
-  .item-development {
+  .development-info {
+    display: flex;
     
-    margin: 0 10px;
+  }
+
+
+
+  .item-development {  
+    margin-right: 10px;
+    &:last-child {
+      margin-right: 0;
+    }
+  }
+
+  .item-development__info {
+    display: flex;
+    align-items: center;
   }
   
   .item-development__icon {
-    padding-bottom: 20px;
-    display: flex;
-    padding-top: 10px;
+    margin-right: 20px;
   }
   
-  .item-development__title {
-    font-family: Montserrat;
-    font-style: normal;
-    font-weight: normal;
+  .item-development__count {
     font-size: $title-fontsize;
     line-height: 53px;
     color: hsl(0, 0%, 0%);
-
-  
   }
   
   .item-development__text {
@@ -39,6 +45,6 @@
     font-size: $paragraph-fontsize;
     line-height: 25px;
     color: hsl(0, 0%, 60%);
+    text-align: center;
   }
-  
   
