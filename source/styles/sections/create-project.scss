@@ -3,13 +3,18 @@
     padding-top: 110px;
 }
   
-.test {
+.create-project-view__center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.create-project {
     max-width: 800px;
 }
   
 .create-project__title {
-  font-family: Montserrat;
-  font-style: normal;
   font-weight: bold;
   font-size: 36px;
   line-height: 53px;
@@ -19,9 +24,7 @@
 }
   
 .create-project__description {
-    font-family: Montserrat;
-    font-style: normal;
-    font-weight: normal;
+    max-width: 750px;
     font-size: 16px;
     line-height: 25px;
     text-align: center;
@@ -31,12 +34,11 @@
   
 .create-project__row {
     display: flex;
+    flex-grow: 1;
     align-content: space-between;
 }
 
 .item-create-project__h3 {
-    font-family: Montserrat;
-    font-style: normal;
     font-weight: 600;
     font-size: 18px;
     line-height: 22px;
@@ -44,11 +46,8 @@
 }
 
 .item-create-project__p {
-    font-family: Montserrat;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 14px;
-  line-height: 22px;
-  color: #999999;
-  padding-bottom: 50px;
+    font-size: 14px;
+    line-height: 22px;
+    color: #999999;
+    padding-bottom: 50px;
 }
